@@ -50,10 +50,13 @@ def generate_playlist_file(out_fn, channel_list, is_sorted=True):
     pass
 
 def main():
+    print('Logging...')
     channel_acquire_result_json = action_channel_acquire(args.user_token)
+    print('Acquiring channel list')
     channel_list = process_channel_list(channel_acquire_result_json)
+    print('Writing {c} channels into file {f}'.format(c=len(channel_list), f=args.output_channel_playlist_filename))
     generate_playlist_file(args.output_channel_playlist_filename, channel_list)
-    pass
+    print('Done!\n\n')
 
 if __name__ == '__main__':
     main()
