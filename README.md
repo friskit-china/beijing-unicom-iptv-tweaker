@@ -34,5 +34,6 @@ python3 main.py --user_token xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx --auth_server "htt
 
 --output_channel_playlist_filename 生成播放列表文件名
 
+## Future Work
 
-
+有空的话打算做成OpenWRT KoolShare软件中心插件或者OpenWRT的软件包，每天自动更新列表，让IINA能够直接打开播放。也欢迎大神来贡献code哈～
