@@ -1,6 +1,5 @@
 .vscode
 run.sh
-iptv_channel.udpxy.m3u
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

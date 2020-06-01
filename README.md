@@ -5,6 +5,7 @@
 
 不想跑code的话可以直接用iptv_channel.m3u这个我抽取好的列表文件（可能会偶尔更新），用法和[bj-unicom-iptv.m3u](https://gist.github.com/sdhzdmzzl/93cf74947770066743fff7c7f4fc5820)一样。
 
+(其中iptv_channel.udpxy.m3u是根据我自己路由器的udpxy参数设置的，你可以通过简单地查找替换来变成适合你的版本。)
 
 ## 使用教程 
 
